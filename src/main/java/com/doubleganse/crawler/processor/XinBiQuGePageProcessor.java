@@ -49,7 +49,7 @@ public class XinBiQuGePageProcessor implements PageProcessor, Runnable {
 	/**
 	 * @param url      要抓取小说的目录页url
 	 * @param path     保存的文件路径
-	 * @param fileName 保存的问题名称，需要带格式（xxx.txt）
+	 * @param fileName 保存的文件名称，需要带格式（xxx.txt）
 	 */
 	public XinBiQuGePageProcessor(String url, String path, String fileName) {
 		this.url = url;
