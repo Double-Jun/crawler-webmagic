@@ -30,7 +30,7 @@ public class XinBiQuGeBatchPageProcessor implements PageProcessor {
 				author = split[1];
 			}
 			LOGGER.info("new thread start to download " + bookName);
-			new XinBiQuGePageProcessor(page.getRequest().getUrl(), "d:/webmagic/历史军事/", (bookName + "(" + author + ")") + ".txt").start();
+			new XinBiQuGePageProcessor(page.getRequest().getUrl(), "d:/webmagic/历史军事/").start();
 		}
 	}
 
